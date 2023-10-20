@@ -7,13 +7,11 @@ function About () {
         <>
         <Navbar/>
             <Hero 
-                cName="hero"
+                cName="hero-mid"
                 heroImg={AboutImg}
-                title="Your Journey Your Story"
-                text="Choose Your Favorite Destination."
-                buttonText="Travel Plan"
-                url="/"
-                btnClass="show"
+                title="About Us"
+               
+                btnClass="hide"
             />
         </>
     )
