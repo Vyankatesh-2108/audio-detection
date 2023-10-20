@@ -4,10 +4,9 @@ const Footer = () =>{
     return(
         <div className="footer">
             <div className="top">
-                
                 <div>
-                    <h1>Audio Detection</h1>
-                    <p>Choose Your Favorite Destination.</p>
+                    <h1>Sentiment Sound</h1>
+                    <p>Every child can learn everywhere.</p>
                 </div>
 
                 <div>
@@ -18,7 +17,7 @@ const Footer = () =>{
                         <i className="fa-brands fa-instagram-square"></i>
                     </a>
                     <a href="/">
-                        <i className="fa-brands fa-behance-square"></i>
+                        <i className="fa-brands fa-linkedin"></i>
                     </a>
                     <a href="/">
                         <i className="fa-brands fa-twitter-square"></i>
@@ -27,18 +26,18 @@ const Footer = () =>{
             </div>
 
             <div className="bottom">
-                <div>
+                {/* <div>
                     <h4>Project</h4>
                     <a href="/">Changelog</a>
                     <a href="/">Status</a>
                     <a href="/">License</a>
                     <a href="/">All Versions</a>
-                </div>
+                </div> */}
                 <div>
                     <h4>Community</h4>
                     <a href="/">GitHub</a>
                     <a href="/">Issues</a>
-                    <a href="/">Projects</a>
+                    {/* <a href="/">Projects</a> */}
                     <a href="/">Twitter</a>
                 </div>
                 <div>

@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar"
-import HomeImgage from "../assets/1.jpg"
+import HomeImgage from "../assets/bg.jpg"
 import Details from "../components/Details";
 import Footer from "../components/Footer"
 
@@ -11,9 +11,9 @@ function Home () {
             <Hero 
                 cName="hero"
                 heroImg={HomeImgage}
-                title="Your Journey Your Story"
-                text="Choose Your Favorite Destination."
-                buttonText="Travel Plan"
+                title="Unlocking opportunity. Igniting change."
+                text="Every child can learn everywhere."
+                buttonText="Let's Start"
                 url="/"
                 btnClass="show"
             />
